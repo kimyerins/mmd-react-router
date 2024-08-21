@@ -16,11 +16,11 @@ dl, ol, ul {padding-left: 0 !important;}
 .menuWrap .menu li {margin: 0 8px; font-size: 17px; cursor: pointer;}
 .menuWrap .menu li:hover {color: #E60012;}
 
-.search_wrap {display: none; position: fixed; left: 0; top: 70px; padding: 65px 20px 45px; width: 100%; background-color: #fff; box-sizing: border-box;}
+.search_wrap {display: none; position: fixed; left: 0; top: 70px; padding: 65px 20px 45px; width: 100%; background-color: #fff; box-sizing: border-box; z-index: 98;}
 .search_wrap.on {display: block;}
 .search_wrap .close {position: absolute; right: 20px; top: 20px; cursor: pointer;}
 .search_wrap .close svg {width: 30px; height: 30px;}
-.search_wrap .input_wrap {width: 95%; max-width: 600px; display: block; position: relative; margin: 0 auto;}
+.search_wrap .input_wrap {width: 75%; max-width: 600px; display: block; position: relative; margin: 0 auto;}
 .search_wrap .input_wrap input {width: 100%; appearance: none; border: 0; border-bottom: 1px solid #000; padding: 5px 30px 10px 5px; font-size: 16px; box-sizing: border-box;}
 .search_wrap .input_wrap input::placeholder {color: #999;}
 .search_wrap .input_wrap input:focus-visible {outline: 0;}
@@ -49,6 +49,7 @@ dl, ol, ul {padding-left: 0 !important;}
   .menuWrap .menu {margin: 3.9063vw 0;}
   .menuWrap .menu li {font-size: 1.6602vw;}
   .header .right p {font-size: 1.4648vw;}
+  .search_wrap .input_wrap input {font-size: 1.5625vw;}
 
   /* product */
   .productList {padding: 0 2.9297vw;}
@@ -67,6 +68,8 @@ dl, ol, ul {padding-left: 0 !important;}
   .header .right .login::before {height: 10px;}
   .header .right .search svg, .header .right .login svg {height: 13px;}
   .header .left {width: 175px;}
+  .search_wrap {padding: 8.4746vw 2.6076vw 5.8670vw}
+  .search_wrap .input_wrap input {font-size: 2.0860vw;}
 
   /* product */
   .productList {padding: 0 3.9113vw;}
@@ -87,9 +90,10 @@ dl, ol, ul {padding-left: 0 !important;}
   .menuWrap .menu li {font-size: 3.1250vw; margin: 0 5px;}
   .header .right p {font-size: 2.7083vw;}
   .header .right .search, .header .right .login {gap: 5PX;}
+  .search_wrap .input_wrap input {font-size: 3.1250vw;}
 
   /* product */
-  .productList {padding: 0 4.1667vw;}
+  .productList {padding: 0 4.1667vw; margin-bottom: 11.7340vw;}
   .productList .prdList li {padding: 0 5px;}
   .productList .prdList li .imgbox {height: 53.3333vw;}
   .productList .prdList li .txtbox .tit, .productList .prdList li .txtbox .price {font-size: 3.1250vw;}
