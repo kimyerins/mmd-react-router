@@ -94,6 +94,7 @@ dl, ol, ul {padding-left: 0 !important;}
   .header .right .search, .header .right .login {gap: 5px;}
   .search_wrap {top: 60px;}
   .search_wrap .input_wrap input {font-size: 3.1250vw;}
+  .search_wrap .close {top: 10px;}
   .search_wrap .close svg {height: 24px; width: 24px;}
 
   /* product */
