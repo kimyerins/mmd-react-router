@@ -70,6 +70,8 @@ dl, ol, ul {padding-left: 0 !important;}
   .header .left {width: 175px;}
   .search_wrap {padding: 8.4746vw 2.6076vw 5.8670vw}
   .search_wrap .input_wrap input {font-size: 2.0860vw;}
+  .search_wrap .input_wrap .sch {height: 17px; width: 22px;}
+  .search_wrap .close svg {height: 26px; width: 26px;}
 
   /* product */
   .productList {padding: 0 3.9113vw;}
@@ -91,6 +93,7 @@ dl, ol, ul {padding-left: 0 !important;}
   .header .right p {font-size: 2.7083vw;}
   .header .right .search, .header .right .login {gap: 5PX;}
   .search_wrap .input_wrap input {font-size: 3.1250vw;}
+  .search_wrap .close svg {height: 24px; width: 24px;}
 
   /* product */
   .productList {padding: 0 4.1667vw; margin-bottom: 11.7340vw;}
