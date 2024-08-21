@@ -1,0 +1,214 @@
+{
+  "products":[
+      {
+          "id":0,
+          "img":"bag-img1.jpg",
+          "title":"FLUFFY PANINI_PINK",
+          "price":82000,
+          "choice":true,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":1,
+          "img":"bag-img2.jpg",
+          "title":"MINI HEART MARDI_SKY BURGUNDY",
+          "price":85000,
+          "choice":true,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":2,
+          "img":"bag-img3.jpg",
+          "title":"MINI HALF MOON TERRY FLOWERMARDI_GREEN WHITE",
+          "price":115000,
+          "choice":false,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":3,
+          "img":"dress-img1.jpg",
+          "title":"DRESS LIGNE DU CORPS_YELLOW",
+          "price":118000,
+          "choice":false,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":4,
+          "img":"dress-img2.jpg",
+          "title":"MAXI DRESS V NECK EYELET_WHITE",
+          "price":280800,
+          "choice":true,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":5,
+          "img":"dress-img3.jpg",
+          "title":"KNIT SLIP DRESS 01.ROSE_NAVY",
+          "price":151200,
+          "choice":false,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":6,
+          "img":"knit-img1.jpg",
+          "title":"WOOL CROPPED V NECK ALUMNI CLASSIQUE_GREY BLACK",
+          "price":106200,
+          "choice":true,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":7,
+          "img":"knit-img2.jpg",
+          "title":"CASHMERE CREW NECK ALUMNI CLASSIQUE_GREY BLACK",
+          "price":124200,
+          "choice":false,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":8,
+          "img":"knit-img3.jpg",
+          "title":"CABLE MAXI SKIRT MRCD_BEIGE NAVY",
+          "price":98000,
+          "choice":true,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":9,
+          "img":"outwear-img1.jpg",
+          "title":"MOHAIR CARDIGAN V NECK CLOVERMARDI_PINK",
+          "price":142200,
+          "choice":false,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":10,
+          "img":"outwear-img2.jpg",
+          "title":"TWEED OVERSIZED JACKET_BLACK",
+          "price":358000,
+          "choice":true,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":11,
+          "img":"outwear-img3.jpg",
+          "title":"GLOSSY CROPPED DOWN JACKET_BLACK",
+          "price":338000,
+          "choice":true,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":12,
+          "img":"shirt-img1.jpg",
+          "title":"SLIM SHIRT STRIPE_WHITE",
+          "price":133200,
+          "choice":true,
+          "new":true,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":13,
+          "img":"shirt-img2.jpg",
+          "title":"TERRY SHIRT HALF SLEEVE BON VOYAGE_OATMEAL BLACK",
+          "price":82000,
+          "choice":false,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":14,
+          "img":"shirt-img3.jpg",
+          "title":"CROPPED SHIRT LE NOUVEAU LABEL_BLACK",
+          "price":98000,
+          "choice":false,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":15,
+          "img":"tops-img1.jpg",
+          "title":"TANK RACER MARDI STAR LOGO_BLACK WHITE",
+          "price":40500,
+          "choice":false,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+          "id":16,
+          "img":"tops-img2.jpg",
+          "title":"TANK RACER MARDI STAR LOGO_NAVY BEIGE",
+          "price":40500,
+          "choice":false,
+          "new":false,
+          "size":["S","M","L"]
+
+      },
+      {
+        "id":17,
+        "img":"tops-img3.jpg",
+        "title":"RUGBY SHIRT STRIPE FLOWER_IVORY NAVY",
+        "price":106200,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"]
+
+    },
+    {
+      "id":18,
+      "img":"tshirt-img1.jpg",
+      "title":"SLIM TSHIRT FLOWERMARDI_OATMEAL BLACK",
+      "price":40500,
+      "choice":false,
+      "new":false,
+      "size":["S","M","L"]
+
+  },
+  {
+    "id":19,
+    "img":"tshirt-img2.jpg",
+    "title":"CROPPED TSHIRT MARDI CLASSIC_WHITE NAVY",
+    "price":46800,
+    "choice":false,
+    "new":false,
+    "size":["S","M","L"]
+
+},
+{
+  "id":20,
+  "img":"tshirt-img3.jpg",
+  "title":"TSHIRT SWING THE TAIL DDANJI PEARL NECKLACE_IVORY NAVY",
+  "price":40500,
+  "choice":false,
+  "new":false,
+  "size":["S","M","L"]
+
+}
+  ]
+}
