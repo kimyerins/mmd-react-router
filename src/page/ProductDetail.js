@@ -11,6 +11,9 @@ const ProductDetail = () => {
     let data = await response.json();
     setProduct(data);
   };
+  const formattedPrice = product?.price
+    ?.toString()
+    .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   useEffect(() => {
     getProductDetail();
   }, []);
@@ -22,7 +25,7 @@ const ProductDetail = () => {
         </div>
         <div className="txtbox">
           <div className="tit">{product?.title}</div>
-          <div className="price">₩{product?.price}</div>
+          <div className="price">₩{formattedPrice}</div>
           <select>
             {product?.size.map((data) => (
               <option>{data}</option>

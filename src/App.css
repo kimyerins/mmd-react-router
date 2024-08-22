@@ -32,12 +32,23 @@ dl, ol, ul {padding-left: 0 !important;}
 .productList img {width: 100%; height: 100%; object-fit: cover; transition: all .3s ease; -o-transition: all .3s ease; -moz-transition: all .3s ease; -webkit-transition: all .3s ease;}
 .productList .prdList {flex-wrap: wrap; list-style: none; padding: 0; row-gap: 40px; align-items: start; margin-bottom: 0;} 
 .productList .prdList li {width: 25%; flex: 0 0 auto; padding: 0 8px;}
+.productList .prdList li .card {border: 0;}
 .productList .prdList li .txtbox {margin: 10px 0;}
 .productList .prdList li .imgbox {overflow: hidden; height: 31.2500vw;}
 .productList .prdList li:hover .imgbox img {transform: scale(1.1);}
 .productList .prdList li .txtbox .choice {font-size: 14px; color: #999; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px;}
 .productList .prdList li .txtbox .new {color: #666; background-color: #eee; margin-top: 7px; width: fit-content; font-size: 13px; border-radius: 50px; padding: 4px 15px;}
 .productList .prdList li .txtbox .price {margin-top: 5px;}
+
+.detail_wrap {padding: 0 30px; align-items: start;}
+.detail_wrap .imgbox {width: 55%;}
+.detail_wrap .imgbox img {width: 100%;}
+.detail_wrap .txtbox {width: 45%; padding: 2.6042vw;}
+.detail_wrap .txtbox .tit {color: #000; font-size: 17px;}
+.detail_wrap .txtbox .price {font-size: 14px; color: #000; padding-top: 10px;}
+.detail_wrap .txtbox select {margin: 20px 0; width: 30%;}
+.detail_wrap .txtbox button {height: 40px; line-height: 40px; border: 0; font-size: 13px; font-weight: 700; appearance: none; width: 100%; color: #fff; background-color: #000;}
+
 
 @media (max-width: 1600px) {
   /* product */
@@ -57,6 +68,8 @@ dl, ol, ul {padding-left: 0 !important;}
   .productList .prdList li .imgbox {height: 40.0391vw}
   .productList .prdList li .txtbox .tit, .productList .prdList li .txtbox .price {font-size: 1.5625vw;}
   .productList .prdList li .txtbox .new {font-size: 1.2695vw;}
+
+  .detail_wrap {padding: 0 2.9297vw;}
 }
 
 @media (max-width: 767px) {
@@ -80,6 +93,10 @@ dl, ol, ul {padding-left: 0 !important;}
   .productList .prdList li .imgbox {height: 57.8879vw;}
   .productList .prdList li .txtbox .tit, .productList .prdList li .txtbox .price {font-size: 2.0860vw;}
   .productList .prdList li .txtbox .new {font-size: 1.6949vw;}
+
+  .detail_wrap {padding: 0 3.9113vw; flex-direction: column;}
+  .detail_wrap .imgbox, .detail_wrap .txtbox {width: 100%;}
+  .detail_wrap .txtbox {padding: 2.6042vw;}
 }
 
 @media (max-width: 480px) {
@@ -106,4 +123,6 @@ dl, ol, ul {padding-left: 0 !important;}
   .productList .prdList li .txtbox .tit, .productList .prdList li .txtbox .price {font-size: 3.1250vw;}
   .productList .prdList li .txtbox .new {font-size: 2.5000vw; padding: 2px 10px;}
   .productList .prdList li .txtbox .choice {font-size: 2.75vw; padding-bottom: 7px; margin-bottom: 7px;}
+
+  .detail_wrap {padding: 0 4.1667vw;}
 }
