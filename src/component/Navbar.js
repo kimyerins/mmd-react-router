@@ -5,7 +5,7 @@ import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faMagnifyingGlass, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router";
 
-const Navbar = () => {
+const Navbar = ({ authenticate }) => {
   const menuList = [
     "TSHIRT",
     "TOPS",
@@ -30,10 +30,13 @@ const Navbar = () => {
   const goLoginPage = () => {
     navigate("/login");
   };
+  const goHome = () => {
+    navigate("/");
+  };
   return (
     <div>
       <div className="dfbox header">
-        <div className="left">
+        <div className="left" onClick={goHome}>
           <img
             src="https://mardimercredi.com/web/mardi/assets/images/logo.svg"
             alt="logo"
@@ -46,7 +49,9 @@ const Navbar = () => {
           </div>
           <div className="dfbox login">
             <FontAwesomeIcon icon={faUser} />
-            <p onClick={goLoginPage}>LOGIN</p>
+            <p onClick={goLoginPage}>
+              {authenticate === false ? "LOGIN" : "LOGOUT"}
+            </p>
           </div>
         </div>
       </div>

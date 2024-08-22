@@ -5,7 +5,7 @@ dl, ol, ul {padding-left: 0 !important;}
 
 /* header */
 .header {width: 100%; background-color: #fff; position: fixed; left: 0; top: 0; padding: 0 40px; margin: 0 auto; z-index: 99; justify-content: space-between; height: 70px; border-bottom: 1px solid rgba(0,0,0, .1); box-sizing: border-box;}
-.header .left {width: 215px;}
+.header .left {width: 215px; cursor: pointer;}
 .header .left img {width: 100%;}
 .header .right .search, .header .right .login {gap: 8px; cursor: pointer;}
 .header .right .login {padding-left: 15px; margin-left: 15px; position: relative;}

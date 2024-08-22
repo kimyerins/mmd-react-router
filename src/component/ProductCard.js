@@ -1,11 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const ProductCard = ({ item }) => {
   const formattedPrice = item?.price
     ?.toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  const navigate = useNavigate();
+  const showDetail = () => {
+    navigate(`/product/${item.id}`);
+  };
   return (
-    <div>
+    <div className="card" onClick={showDetail}>
       <div className="imgbox">
         <img src={item?.img} alt="img" />
       </div>
