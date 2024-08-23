@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Button, Container } from "react-bootstrap";
 import { useNavigate } from "react-router";
 
-const Login = ({ setAuthenticate }) => {
+const Login = ({ setAuthenticate, setSearchOn }) => {
   const navigate = useNavigate();
   const loginUser = (event) => {
     event.preventDefault();

@@ -1,19 +1,22 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+//import { Col, Container, Row } from "react-bootstrap";
 import ProductCard from "../component/ProductCard";
+import { useSearchParams } from "react-router-dom";
 
 const ProductAll = () => {
   const [productLIst, setProductList] = useState([]);
+  const [query, setQuery] = useSearchParams();
   const getProducts = async () => {
-    let url = `https://my-json-server.typicode.com/kimyerins/mmd-react-router/products`;
+    let searchQuery = query.get("q") || "";
+    let url = `https://my-json-server.typicode.com/kimyerins/mmd-react-router/products?q=${searchQuery}`;
     let response = await fetch(url);
     let data = await response.json();
     setProductList(data);
   };
   useEffect(() => {
     getProducts();
-  }, []);
+  }, [query]);
   return (
     <div className="productList">
       <ul className="prdList dfbox">
@@ -23,8 +26,8 @@ const ProductAll = () => {
           </li>
         ))}
       </ul>
-      <Container>
-        {/* <Row>
+      {/* <Container> */}
+      {/*  <Row>
           <Col md={3}>
             <ProductCard />
           </Col>
@@ -38,7 +41,7 @@ const ProductAll = () => {
             <ProductCard />
           </Col>
         </Row> */}
-      </Container>
+      {/*</Container>*/}
     </div>
   );
 };

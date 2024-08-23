@@ -18,11 +18,11 @@ import PrivateRouter from "./Route/PrivateRouter";
 // 8. 로그인을하면 로그아웃, 로그아웃을하면 로그인
 // 9. 상품을 검색할 수 있다.
 function App() {
-  const [authenticate, setAuthenticate] = useState(false); //true===login, false===not login
+  const [authenticate, setAuthenticate] = useState(false); //true===login, false===logout
   useEffect(() => {}, [authenticate]);
   return (
     <div className="Container">
-      <Navbar authenticate={authenticate} />
+      <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate} />
       <Routes>
         <Route path="/" element={<ProductAll />}></Route>
         <Route

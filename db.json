@@ -7,7 +7,8 @@
           "price":82000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"bag"
 
       },
       {
@@ -17,7 +18,8 @@
           "price":85000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"bag"
 
       },
       {
@@ -27,7 +29,8 @@
           "price":115000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"bag"
 
       },
       {
@@ -37,7 +40,8 @@
           "price":118000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"dress"
 
       },
       {
@@ -47,7 +51,8 @@
           "price":280800,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"dress"
 
       },
       {
@@ -57,7 +62,8 @@
           "price":151200,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"dress"
 
       },
       {
@@ -67,7 +73,8 @@
           "price":106200,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"knit"
 
       },
       {
@@ -77,7 +84,8 @@
           "price":124200,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"knit"
 
       },
       {
@@ -87,7 +95,8 @@
           "price":98000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"knit"
 
       },
       {
@@ -97,7 +106,8 @@
           "price":142200,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"outwear"
 
       },
       {
@@ -107,7 +117,8 @@
           "price":358000,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"outwear"
 
       },
       {
@@ -117,7 +128,8 @@
           "price":338000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"outwear"
 
       },
       {
@@ -127,7 +139,8 @@
           "price":133200,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"shirt"
 
       },
       {
@@ -137,7 +150,8 @@
           "price":82000,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"shirt"
 
       },
       {
@@ -147,7 +161,8 @@
           "price":98000,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"shirt"
 
       },
       {
@@ -157,7 +172,8 @@
           "price":40500,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"tops"
 
       },
       {
@@ -167,7 +183,8 @@
           "price":40500,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "category":"tops"
 
       },
       {
@@ -177,7 +194,8 @@
         "price":106200,
         "choice":false,
         "new":false,
-        "size":["S","M","L"]
+        "size":["S","M","L"],
+        "category":"tops"
 
     },
     {
@@ -187,7 +205,8 @@
       "price":40500,
       "choice":false,
       "new":false,
-      "size":["S","M","L"]
+      "size":["S","M","L"],
+      "category":"tshirt"
 
   },
   {
@@ -197,7 +216,8 @@
     "price":46800,
     "choice":false,
     "new":false,
-    "size":["S","M","L"]
+    "size":["S","M","L"],
+    "category":"tshirt"
 
 },
 {
@@ -207,7 +227,8 @@
   "price":40500,
   "choice":false,
   "new":false,
-  "size":["S","M","L"]
+  "size":["S","M","L"],
+  "category":"tshirt"
 
 }
   ]
