@@ -44,9 +44,9 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
     navigate("/");
   };
   const search = (event) => {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" || event.type === "click") {
       //입력한 검색어 긁어와서 url 변경
-      let keyword = event.target.value;
+      let keyword = event.target.value || document.querySelector("input").value;
       navigate(`/?q=${keyword}`);
     }
   };
@@ -127,7 +127,11 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
             placeholder="검색어를 입력하세요"
             onKeyPress={(event) => search(event)}
           />
-          <FontAwesomeIcon icon={faMagnifyingGlass} className="sch" />
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+            className="sch"
+            onClick={(event) => search(event)}
+          />
         </div>
       </div>
       <div className="menuWrap">
