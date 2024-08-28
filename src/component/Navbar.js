@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -10,7 +11,7 @@ import {
 import { useNavigate } from "react-router";
 import { useSearchParams } from "react-router-dom";
 
-const Navbar = ({ authenticate, setAuthenticate }) => {
+const Navbar = () => {
   const menuList = [
     { name: "TSHIRT", category: "tshirt" },
     { name: "TOPS", category: "tops" },
@@ -20,6 +21,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
     { name: "DRESS", category: "dress" },
     { name: "BAG", category: "bag" },
   ];
+  const authenticate = useSelector((state) => state.auth.authenticate);
   const [searchOn, setSearchOn] = useState(false);
   const SearchBar = () => {
     if (searchOn) {
@@ -36,7 +38,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
     if (authenticate === false) {
       navigate("/login");
     } else {
-      setAuthenticate(false);
+      authenticate(false);
     }
   };
   const goHome = () => {
