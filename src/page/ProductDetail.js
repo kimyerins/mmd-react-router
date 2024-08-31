@@ -3,13 +3,14 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { productAction } from "../redux/actions/productAction";
 import { useDispatch, useSelector } from "react-redux";
+import { fetchProductDetail } from "../redux/reducers/productSlice";
 
 const ProductDetail = () => {
   let { id } = useParams();
   const product = useSelector((state) => state.product.selectedItem);
   const dispatch = useDispatch();
   const getProductDetail = () => {
-    dispatch(productAction.getProductDetail(id));
+    dispatch(fetchProductDetail(id));
   };
   const formattedPrice = product?.price
     ?.toString()
